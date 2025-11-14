@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Text&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url('./assets/beach_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    width: 50%;
+    border-radius: 16px;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    text-align: center;
+    font-family: "Stack Sans Text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 1em;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+}

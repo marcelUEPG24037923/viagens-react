@@ -1,0 +1,62 @@
+.item-container {
+    border: 2px solid rgb(125, 125, 125);
+    border-radius: 8px;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.informations {
+    font-family: "Stack Sans Text", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+h1 {
+    font-family: "Stack Sans Text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#edit-item {
+    border: 1px solid rgb(125, 125, 125);
+    border-radius: 4px;
+    width: 60px;
+    height: 60px;
+    background-image: url('./assets/edit.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#delete-item {
+    border: 1px solid rgb(125, 125, 125);
+    border-radius: 4px;
+    width: 60px;
+    height: 60px;
+    background-image: url('./assets/delete.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#edit-item:hover {
+    cursor: pointer;
+}
+
+#delete-item:hover {
+    cursor: pointer;
+}

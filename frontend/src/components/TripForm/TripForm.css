@@ -1,0 +1,60 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  font-family: "Stack Sans Text", sans-serif;
+  font-size: 18px;
+  gap: 0.3em;
+}
+
+h2 {
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 0.5em;
+}
+
+input {
+  padding: 0.5em;
+  font-size: 18px;
+}
+
+.actions {
+  margin-top: 1em;
+}
+
+button {
+  padding: 1em;
+  border-radius: 8px;
+  border: 2px solid rgb(125, 125, 125);
+  font-family: "Stack Sans Text", sans-serif;
+}
+
+#botao-cancelar:hover {
+  cursor: pointer;
+}
+
+#botao-confirmar:hover {
+  cursor: pointer;
+}
