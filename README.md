@@ -35,11 +35,10 @@ O sistema permite listar, cadastrar, editar e excluir viagens, contendo os campo
 
 ---
 
-## Como executar o projeto
+### Como executar o projeto
 
 ### 1. Clone o repositório
-```bash
-git clone https://github.com/SEU-USUARIO/SEU-REPO.git
+git clone https://github.com/marcelUEPG24037923/viagens-react.git
 
 ### 2. Acesse a pasta do frontend
 cd frontend
